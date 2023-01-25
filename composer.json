@@ -34,6 +34,9 @@
         "orchestra/testbench": "*",
         "friendsofphp/php-cs-fixer": "*"
     },
+    "conflict": {
+        "fico7489/laravel-pivot": "*"
+    },
     "autoload": {
         "psr-4": {
             "PHLAK\\Laravel\\Pivot\\": "src"
