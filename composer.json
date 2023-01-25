@@ -1,5 +1,5 @@
 {
-    "name": "fico7489/laravel-pivot",
+    "name": "phlak/laravel-pivot",
     "description": "This package introduces new eloquent events for sync(), attach(), detach() or updateExistingPivot() methods on BelongsToMany relation.",
     "keywords": [
         "laravel BelongsToMany events",
@@ -8,10 +8,10 @@
         "laravel sync events",
         "eloquent events"
     ],
-    "homepage": "https://github.com/fico7489/laravel-pivot",
+    "homepage": "https://github.com/phlak/laravel-pivot",
     "support": {
-        "issues": "https://github.com/fico7489/laravel-pivot/issues",
-        "source": "https://github.com/fico7489/laravel-pivot"
+        "issues": "https://github.com/phlak/laravel-pivot/issues",
+        "source": "https://github.com/phlak/laravel-pivot"
     },
     "license": "MIT",
     "authors": [
@@ -20,6 +20,11 @@
             "email": "filip.horvat@am2studio.hr",
             "homepage": "http://am2studio.hr",
             "role": "Developer"
+        },
+        {
+            "name": "Chris Kankiewicz",
+            "email": "Chris@ChrisKankiewicz.com",
+            "homepage": "https://www.chriskankiewicz.com"
         }
     ],
     "require": {
@@ -31,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Fico7489\\Laravel\\Pivot\\": "src"
+            "PHLAK\\Laravel\\Pivot\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fico7489\\Laravel\\Pivot\\Tests\\": "tests/"
+            "PHLAK\\Laravel\\Pivot\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",

@@ -19,14 +19,14 @@ In Laravel events are not dispatched when BelongsToMany relation (pivot table) i
 
 1.Install package with composer
 ```
-composer require fico7489/laravel-pivot
+composer require phlak/laravel-pivot
 ```
 With this statement, a composer will install highest available package version for your current laravel version.
 
-2.Use Fico7489\Laravel\Pivot\Traits\PivotEventTrait trait in your base model or only in particular models.
+2.Use PHLAK\Laravel\Pivot\Traits\PivotEventTrait trait in your base model or only in particular models.
 
 ```php
-use Fico7489\Laravel\Pivot\Traits\PivotEventTrait;
+use PHLAK\Laravel\Pivot\Traits\PivotEventTrait;
 use Illuminate\Database\Eloquent\Model;
 
 abstract class BaseModel extends Model

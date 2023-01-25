@@ -1,6 +1,6 @@
 <?php
 
-namespace Fico7489\Laravel\Pivot\Traits;
+namespace PHLAK\Laravel\Pivot\Traits;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;

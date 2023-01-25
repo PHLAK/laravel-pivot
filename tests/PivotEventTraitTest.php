@@ -1,13 +1,13 @@
 <?php
 
-namespace Fico7489\Laravel\Pivot\Tests;
+namespace PHLAK\Laravel\Pivot\Tests;
 
-use Fico7489\Laravel\Pivot\Tests\Models\Post;
-use Fico7489\Laravel\Pivot\Tests\Models\Role;
-use Fico7489\Laravel\Pivot\Tests\Models\Seller;
-use Fico7489\Laravel\Pivot\Tests\Models\Tag;
-use Fico7489\Laravel\Pivot\Tests\Models\User;
-use Fico7489\Laravel\Pivot\Tests\Models\Video;
+use PHLAK\Laravel\Pivot\Tests\Models\Post;
+use PHLAK\Laravel\Pivot\Tests\Models\Role;
+use PHLAK\Laravel\Pivot\Tests\Models\Seller;
+use PHLAK\Laravel\Pivot\Tests\Models\Tag;
+use PHLAK\Laravel\Pivot\Tests\Models\User;
+use PHLAK\Laravel\Pivot\Tests\Models\Video;
 
 class PivotEventTraitTest extends TestCase
 {

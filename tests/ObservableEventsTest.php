@@ -1,8 +1,8 @@
 <?php
 
-namespace Fico7489\Laravel\Pivot\Tests;
+namespace PHLAK\Laravel\Pivot\Tests;
 
-use Fico7489\Laravel\Pivot\Tests\Models\User;
+use PHLAK\Laravel\Pivot\Tests\Models\User;
 
 class ObservableEventsTest extends TestCase
 {

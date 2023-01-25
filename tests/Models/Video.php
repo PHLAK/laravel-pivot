@@ -1,8 +1,8 @@
 <?php
 
-namespace Fico7489\Laravel\Pivot\Tests\Models;
+namespace PHLAK\Laravel\Pivot\Tests\Models;
 
-use Fico7489\Laravel\Pivot\Traits\PivotEventTrait;
+use PHLAK\Laravel\Pivot\Traits\PivotEventTrait;
 
 class Video extends BaseModel
 {
